@@ -70,12 +70,18 @@ a:focus{
 	background-position:50% 0;
 	background-repeat:no-repeat;
 	margin:0 auto;
-	width:100%;
+	width:auto;
+	overflow-x: hidden;
 	background-size:cover;
+	height: 100%;
+}
+body, html {
+	height: 100%;
 }
 .pattern{
 	background:rgba(0,0,0,.5) url(../images/pattern.png);
 	padding-top:100px;
+	height: 100%;
 }
 .container{
 	overflow:hidden;
